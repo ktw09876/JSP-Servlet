@@ -33,6 +33,15 @@
   	<url-pattern>/hello</url-pattern>
   </servlet-mapping>
  -->
+ 
+ 	<!-- <filter>
+ 		<filter-name>characterEncodingFilter</filter-name>
+ 		<filter-class>com.test.web.filter.CharacterEncodingFilter</filter-class>
+ 	</filter>
+ 	<filter-mapping> 
+ 		<filter-name>characterEncodingFilter</filter-name> 필터를 매핑하기위해 필터와 같은 이름으로 지정
+ 		<url-pattern>/*</url-pattern> 모든 url에 대해서 이 필터가 실행되게 하겠다
+ 	</filter-mapping> -->
 
   <display-name>Welcome to Tomcat</display-name>
   <description>
